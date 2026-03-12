@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Media Locker Admin</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>MEDIA LOCKER ADMIN</h1>
+<p>Add New Blog Posts</p>
+</header>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="sports.html">Sports</a>
+<a href="news.html">News</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<section class="posts">
+
+<h2>Add New Post</h2>
+
+<input type="text" id="title" placeholder="Post Title"><br><br>
+
+<textarea id="content" placeholder="Write your article here"></textarea><br><br>
+
+<button onclick="addPost()">Publish Post</button>
+
+</section>
+
+<script src="script.js"></script>
+<select id="category">
+<option value="Sports">Sports</option>
+<option value="News">News</option>
+<option value="Football">Football</option>
+</select>
+
+</body>
+</html>

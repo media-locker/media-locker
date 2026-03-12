@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Media Locker</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>MEDIA LOCKER</h1>
+        <p>
+            Your Hub For Sports & Important Updates
+        </p>
+
+    </header>
+<div class="breaking-news">
+
+<span class="label">BREAKING</span>
+
+<marquee id="newsTicker">
+Welcome to Media Locker | Latest football updates coming soon | Stay tuned for transfer news and match analysis
+</marquee>
+
+</div>
+    <nav>
+
+        <a href="#">Home</a>
+        <a href="#">Sports</a>
+        <a href="#">News</a>
+        <a href="#">Contact</a>
+<button onclick="toggleDarkMode()" class="dark-btn">Dark Mode</button>
+    </nav>
+    <section class="featured">
+
+<img src="images/featured.jpg" alt="Featured News">
+
+<div class="featured-text">
+
+<h2>Top Story: Premier League Title Race Intensifies</h2>
+
+<p>The battle for the Premier League title is heating up as top clubs compete for the championship.</p>
+
+<a href="post1.html" class="read-more">Read Full Story</a>
+
+</div>
+
+</section>
+<section class="live-scores">
+
+<h2>Live Football Scores</h2>
+
+<div id="scores">
+
+<div class="match">
+<p>Manchester United vs Chelsea</p>
+<strong>2 - 1</strong>
+</div>
+
+<div class="match">
+<p>Barcelona vs Real Madrid</p>
+<strong>1 - 1</strong>
+</div>
+
+<div class="match">
+<p>Bayern Munich vs Dortmund</p>
+<strong>3 - 2</strong>
+</div>
+
+</div>
+
+</section>
+
+    <section class="hero">
+        <section class="trending">
+<h2>Trending Posts</h2>
+<div class="posts">
+
+<div class="card">
+<img src="images/transfer.jpg" alt="Transfer News">
+<h3><a href="post2.html">Transfer News</a></h3>
+<p>Top clubs preparing for the next transfer window.</p>
+</div>
+
+<div class="card">
+<img src="images/breaking-news.jpg" alt="Breaking News">
+<h3><a href="post3.html">Breaking News</a></h3>
+<p>Important global updates and sports headlines.</p>
+</div>
+
+</div>
+</section>
+
+        <h2>Latest Sports Stories</h2>
+        <p>
+            Football news, match analysis, transfer updates and more.
+        </p>
+
+    </section>
+<section class="search-box">
+<input type="text" id="searchInput" placeholder="Search posts..." onkeyup="searchPosts()">
+</section>
+<section class="sports-news">
+
+<h2>Latest Sports News</h2>
+
+<div id="news-container">
+
+<p>Loading latest sports news...</p>
+
+</div>
+
+</section>
+    <section class="posts">
+
+        <div class="card">
+
+            <h3>Premier League Update</h3>
+            <p>
+                Latest match results and player performances from the Premier League.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>Transfer News</h3>
+            <p>
+                Top clubs are preparing for the next transfer window.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>Breaking News</h3>
+            <p>
+                Important global updates and sports headlines.
+            </p>
+
+        </div>
+
+    </section>
+    <section class="posts">
+
+        <div class="card">
+            <img src="images/football.jpg" alt="Football News">
+            <h3>Premier League Update</h3>
+            <p>
+                Latest match results and player performances from the Premier League.
+            </p>
+        </div>
+
+        <div class="card">
+            <img src="images/transfer.jpg" alt="Transfer News">
+            <h3>Transfer News</h3>
+            <p>
+                Top clubs are preparing for the next transfer window.
+            </p>
+        </div>
+
+        <div class="card">
+            <img src="images/breaking-news.jpg" alt="Breaking News">
+            <h3>Breaking News</h3>
+            <p>
+                Important global updates and sports headlines.
+            </p>
+        </div>
+
+    </section>
+    <aside class="sidebar">
+
+<h3>Trending Posts</h3>
+
+<ul>
+
+<li><a href="post1.html">Premier League Title Race</a></li>
+
+<li><a href="post2.html">Champions League Preview</a></li>
+
+<li><a href="post3.html">Top Transfer Rumours</a></li>
+
+<li><a href="post4.html">Football Players of the Week</a></li>
+
+</ul>
+
+</aside>
+<div id="blogPosts"></div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="sports.html">Sports</a>
+        <a href="news.html">News</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <section class="newsletter">
+
+<h2>Subscribe to Media Locker</h2>
+
+<p>Get the latest sports and news updates.</p>
+
+<input type="email" id="emailInput" placeholder="Enter your email">
+
+<button onclick="subscribe()">Subscribe</button>
+
+</section>
+
+    <footer>
+
+        <p>
+            © 2026 Media Locker | Sports & News Blog
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
